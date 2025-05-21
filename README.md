@@ -1,3 +1,4 @@
+
 # 🧠 Smart AI Agent Environment (Gemini 2.0 Flash)
 
 An intelligent, customizable development assistant built using Google Gemini 2.0 Flash — designed for developers and professionals who want AI agents tailored to their roles, skills, tone, and domains of expertise.
@@ -46,21 +47,19 @@ Each agent has the following configurable fields:
 
 ## 🏗️ Project Structure
 
+```
 📁 smart-agent-env/
 │
-├── app.py # Streamlit main interface
-├── .env # (Optional) Store GEMINI_API_KEY here
-├── profiles/ # JSON profile storage
-│ └── example_profile.json
+├── app.py                   # Streamlit main interface
+├── .env                     # (Optional) Store GEMINI_API_KEY here
+├── profiles/                # JSON profile storage
+│   └── example_profile.json
 │
-├── profile_manager.py # Load/save/edit/delete profiles
-├── utils.py # AI interaction and LLM tools
-├── requirements.txt # Dependencies
-└── README.md # 📘 You are here
-
-yaml
-Copy
-Edit
+├── profile_manager.py       # Load/save/edit/delete profiles
+├── utils.py                 # AI interaction and LLM tools
+├── requirements.txt         # Dependencies
+└── README.md                # 📘 You are here
+```
 
 ---
 
@@ -76,63 +75,65 @@ Edit
 git clone https://github.com/yourusername/smart-agent-env.git
 cd smart-agent-env
 pip install -r requirements.txt
-Create a .env file and add your API key:
+```
 
-ini
-Copy
-Edit
+Create a `.env` file and add your API key:
+```
 GEMINI_API_KEY=your_google_genai_key_here
+```
+
 Or enter it at runtime in the UI.
 
-🚀 Run the App
-bash
-Copy
-Edit
+### 🚀 Run the App
+
+```bash
 streamlit run app.py
-💡 How It Works
-When a user submits a prompt:
-
-The system checks if the prompt is an exit signal (e.g. "I'm done", "quit").
-
-It then checks if the prompt is in scope for the selected agent profile.
-
-If valid, it builds a tailored prompt and queries Gemini 2.0 Flash.
-
-Otherwise, it returns a graceful message or exits.
-
-🔄 Future Improvements
-✅ Session memory persistence (optional)
-
-🌍 Multilingual support
-
-📊 User analytics dashboard
-
-☁️ Cloud-based profile syncing
-
-🔒 Role-based access control
-
-🤝 Contributing
-Pull requests are welcome! Please open issues to suggest features or report bugs.
-
-📄 License
-This project is licensed under the MIT License.
-
-👤 Author
-Abdulmalik Auwal Makama
-Student, Computer & Communication Engineering – ATBU Bauchi
-Contributor @ Smart Data Links | GDSC ATBU | 3MTT Nigeria
-
-🌐 Connect
-📫 Email: [your-email@example.com]
-
-💼 LinkedIn: [your-linkedin-profile]
-
-💻 GitHub: [github.com/yourusername]
-
-yaml
-Copy
-Edit
+```
 
 ---
 
-Let me know if you'd like to auto-generate this as a markdown file or include a logo, badge, or usage GIFs for G
+## 💡 How It Works
+
+When a user submits a prompt:
+1. The system checks if the prompt is an **exit signal** (e.g. "I'm done", "quit").
+2. It then checks if the prompt is **in scope** for the selected agent profile.
+3. If valid, it builds a tailored prompt and queries Gemini 2.0 Flash.
+4. Otherwise, it returns a graceful message or exits.
+
+---
+
+## 🔄 Future Improvements
+
+- ✅ Session memory persistence (optional)
+- 🌍 Multilingual support
+- 📊 User analytics dashboard
+- ☁️ Cloud-based profile syncing
+- 🔒 Role-based access control
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! Please open issues to suggest features or report bugs.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Abdulmalik Auwal Makama**  
+Student, Computer & Communication Engineering – ATBU Bauchi  
+Contributor @ Smart Data Links | GDSC ATBU | 3MTT Nigeria
+
+---
+
+## 🌐 Connect
+
+- 📫 Email: [your-email@example.com]
+- 💼 LinkedIn: [your-linkedin-profile]
+- 💻 GitHub: [github.com/yourusername]
