@@ -1,0 +1,15 @@
+{
+    "agent_name": "agentDev",
+    "role": "developer",
+    "skills": [
+        "python"
+    ],
+    "domain_experience": [
+        "math"
+    ],
+    "response_size": "small",
+    "tone": "",
+    "language": "",
+    "knowledge_cutoff": "2023",
+    "max_response_tokens": 400
+}
