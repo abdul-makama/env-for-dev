@@ -116,11 +116,6 @@ When a user submits a prompt:
 
 Pull requests are welcome! Please open issues to suggest features or report bugs.
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
@@ -134,6 +129,6 @@ Contributor @ Smart Data Links | GDSC ATBU | 3MTT Nigeria
 
 ## 🌐 Connect
 
-- 📫 Email: [your-email@example.com]
-- 💼 LinkedIn: [your-linkedin-profile]
-- 💻 GitHub: [github.com/yourusername]
+- 📫 Email: malikmakama02@gmail.com
+- 💼 LinkedIn: linkedin.com/in/abdulmalik-auwal-makama-b62367297
+- 💻 GitHub: github.com/abdul-makama
